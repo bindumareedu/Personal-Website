@@ -1,0 +1,122 @@
+#rows {
+  display: inline-block;
+  float: left;
+}
+
+#rowodd {
+  width: 100%;
+  height: auto;
+  text-align: right;
+  padding-right: 20px;
+  border-right-style: solid;
+  border-right-width: thick;
+}
+
+#roweven {
+  border-right-style: solid;
+  width: 100%;
+  height: auto;
+  padding-right: 20px;
+  text-align: right;
+  border-right-width: thick;
+}
+
+#projName {
+  font-size: 27;
+  margin-bottom: 1px;
+  margin-top: 10px;
+}
+
+#instTime {
+  font-size: 18;
+  /* font-weight: bold; */
+}
+
+#instName {
+  font-size: 20;
+}
+
+#instLoc {
+  font-size: 20;
+}
+
+#respo {
+  padding-left: 10%;
+  font-size: 16;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.active {
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  text-decoration: underline;
+  text-decoration-color: white;
+  font-size: 40px;
+}
+
+#nav div {
+  display: center;
+  justify-content: center;
+  margin-left: 60%;
+}
+
+#nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: color|transparent|initial|inherit; */
+  display: inline-block;
+  /* #333; */
+}
+
+#nav li {
+  float: left;
+  display: inline;
+  color: white;
+}
+
+#nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#nav li a:hover {
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.sidebarProj {
+  float: left;
+  width: 65%;
+  height: 300px;
+}
+
+.infoProj {
+  float: right;
+  padding-left: 10px;
+  width: 25%;
+  height: 300px;
+}
+
+#projectContainer {
+  height: 10em;
+  position: relative;
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
